@@ -19,14 +19,14 @@ Toda a fundamentação teórica, respondendo aos problemas que cada padrão reso
 Para esta atividade, selecionei dois padrões fundamentais para o dia a dia de um desenvolvedor ADS, aplicando-os em contextos reais de mercado:
 
 ### 1. Adapter (Adaptador)
-* **Arquivo:** `adaptador_cep.py`
-* **Contexto:** Adaptação de uma API antiga de Correios (legada) para um sistema moderno de logística que exige objetos de coordenadas geográficas.
-* **Por que usar?** Para evitar que mudanças em serviços externos quebrem a lógica central do nosso software.
+- **Arquivo:** `adaptador_cep.py`
+- **Contexto:** Adaptação de uma API antiga de Correios (legada) para um sistema moderno de logística que exige objetos de coordenadas geográficas.
+- **Por que usar?** Para evitar que mudanças em serviços externos quebrem a lógica central do nosso software.
 
 ### 2. Facade (Fachada)
-* **Arquivo:** `facade_deploy.py`
-* **Contexto:** Simplificação do processo de deploy em produção, gerenciando interações complexas entre Banco de Dados, Servidor e Notificações em um único método.
-* **Por que usar?** Para reduzir o acoplamento do cliente com subsistemas complexos e evitar erros manuais em processos repetitivos.
+- **Arquivo:** `facade_deploy.py`
+- **Contexto:** Simplificação do processo de deploy em produção, gerenciando interações complexas entre Banco de Dados, Servidor e Notificações em um único método.
+- **Por que usar?** Para reduzir o acoplamento do cliente com subsistemas complexos e evitar erros manuais em processos repetitivos.
 
 ---
 
@@ -37,17 +37,20 @@ Para esta atividade, selecionei dois padrões fundamentais para o dia a dia de u
 
 ---
 
-### Como rodar os exemplos:
-1. Certifique-se de ter o Python instalado.
-2. Clone o repositório:
-   ```bash
+## ▶️ Como rodar os exemplos
+
+1. **Certifique-se de ter o Python instalado**
+
+2. **Clone o repositório**
+
+```bash
 git clone https://github.com/06gabrielsouza/atividade-padroes-estruturais.git
+cd atividade-padroes-estruturais
+```
 
-Execute os arquivos:
+3. **Execute os arquivos**
 
-Bash
+```bash
 python adaptador_cep.py
-
 python facade_deploy.py
-
----
+```
