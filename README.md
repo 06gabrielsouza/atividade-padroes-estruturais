@@ -11,7 +11,7 @@ Repositório destinado à entrega da **Atividade Assíncrona 2** da disciplina d
 ## 📄 Relatório Técnico
 Toda a fundamentação teórica, respondendo aos problemas que cada padrão resolve, como eles funcionam e seus componentes, está detalhada no documento abaixo:
 
-👉 **[Acesse aqui o Relatório Completo ]([COLE_AQUI_O_LINK_DO_SEU_DOCS](https://docs.google.com/document/d/1pdJVg_pQc_dyIueJkvVGpWlkzhus5lTOap281C8gl3w/edit?usp=sharing))**
+👉 **[Acesse aqui o Relatório Completo](https://docs.google.com/document/d/1pdJVg_pQc_dyIueJkvVGpWlkzhus5lTOap281C8gl3w/edit?usp=sharing)**
 
 ---
 
@@ -41,7 +41,8 @@ Para esta atividade, selecionei dois padrões fundamentais para o dia a dia de u
 1. Certifique-se de ter o Python instalado.
 2. Clone o repositório:
    ```bash
-   git clone [https://github.com/06gabrielsouza/atividade-padroes-estruturais.git]
+git clone https://github.com/06gabrielsouza/atividade-padroes-estruturais.git
+
 Execute os arquivos:
 
 Bash
